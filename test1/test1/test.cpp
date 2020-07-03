@@ -42,6 +42,7 @@ public:
 int main()
 {
 	Solution st;
+	//忘了初始化oj在5这里一直不能通过
 	cout << st.Sum_Solution(5) << endl;
 	system("pause");
 	return 0;
