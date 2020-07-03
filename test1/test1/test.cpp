@@ -35,6 +35,7 @@ public:
 		//动态开辟n个数组调用n次构造函数
 		Sum::Init();
 		Sum* p = new Sum[n];
+		delete[] p;
 		return Sum::Getsum();
 	}
 };
